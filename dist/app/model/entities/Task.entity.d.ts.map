@@ -1,0 +1,1 @@
+{"version":3,"file":"Task.entity.d.ts","sourceRoot":"","sources":["../../../../src/app/model/entities/Task.entity.ts"],"names":[],"mappings":"AAAA,OAAO,EAAiE,KAAK,QAAQ,EAAE,MAAM,SAAS,CAAC;AACvG,OAAO,EAAE,IAAI,EAAE,MAAM,kBAAkB,CAAC;AAExC,qBACa,IAAI;IAEf,OAAO,EAAG,MAAM,CAAC;IAGjB,IAAI,EAAG,MAAM,CAAC;IAGd,SAAS,EAAG,OAAO,CAAC;IAIpB,OAAO,EAAG,QAAQ,CAAC,IAAI,CAAC,CAAC;CAC1B"}
