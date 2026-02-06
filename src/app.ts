@@ -11,7 +11,7 @@ const port = 3000;
 
 app.use(cors({
   origin: 'https://check-list-cliente.onrender.com',
-  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  methods: ['GET', 'POST', 'DELETE', 'PATCH'],
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
 
