@@ -33,7 +33,7 @@ export class UserService {
     if (!exist) {
       throw new Error("usuario nao encontrado");
     }
-
+    
     return exist;
   }
 

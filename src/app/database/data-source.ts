@@ -15,6 +15,11 @@ export const AppDataSource = new DataSource({
   entities: [User, Task],
   subscribers: [],
   migrations: [],
+  extra: {
+    ssl: {
+      rejectUnauthorized: true,
+    },
+  },
 });
 try {
   await AppDataSource.initialize();

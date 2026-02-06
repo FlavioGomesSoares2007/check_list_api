@@ -4,8 +4,16 @@ import auth from "./app/routes/Auth.Routes.js";
 import task from "./app/routes/Task.Routes.js";
 
 import express from "express";
+import cors from "cors";
+
 const app = express();
 const port = 3000;
+
+app.use(cors({
+  origin: 'https://check-list-cliente.onrender.com',
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  allowedHeaders: ['Content-Type', 'Authorization']
+}));
 
 app.use(express.json());
 
